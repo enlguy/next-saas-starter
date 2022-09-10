@@ -25,11 +25,11 @@ export default function Cta() {
                 Get a free email deliverability report <span>&rarr;</span>
               </Button>
             </NextLink>
-            <NextLink href="#whitepaper" passHref>
+         {/*   <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>
                 Features <span>&rarr;</span>
               </OutlinedButton>
-            </NextLink>
+              </NextLink> */  }
           </ButtonGroup>
         </Stack>
       </Container>

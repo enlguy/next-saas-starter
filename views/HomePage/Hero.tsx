@@ -24,11 +24,12 @@ export default function Hero() {
           <Button onClick={() => setIsModalOpened(true)}>
             Get a free email deliverability report <span>&rarr;</span>
           </Button>
-          <NextLink href="#whitepaper" passHref>
-            <Button transparent>
-              Features <span>&rarr;</span>
-            </Button>
-          </NextLink>
+         { /*  
+           * <NextLink href="#whitepaper" passHref>
+          *  <Button transparent>
+           *   Features <span>&rarr;</span>
+            * </Button>
+          </NextLink> */ }
         </CustomButtonGroup>
       </Contents>
       <ImageContainer>

@@ -26,11 +26,11 @@ export default function WaveCta() {
             <Button onClick={() => setIsModalOpened(true)}>
               Get a free email deliverability report <span>&rarr;</span>
             </Button>
-            <NextLink href="/features" passHref>
+           {/*  <NextLink href="/features" passHref>
               <OutlinedButton transparent>
                 Features <span>&rarr;</span>
               </OutlinedButton>
-            </NextLink>
+            </NextLink>  */}
           </CustomButtonGroup>
         </Container>
       </CtaWrapper>
