@@ -73,7 +73,7 @@ export default function FeaturesGallery() {
     setCurrentTab(TABS[idx]);
   }
 
-  return (
+  /* return (
     <FeaturesGalleryWrapper>
       <Content>
         <OverTitle>features</OverTitle>
@@ -84,7 +84,7 @@ export default function FeaturesGallery() {
         {imagesMarkup}
       </GalleryWrapper>
     </FeaturesGalleryWrapper>
-  );
+  ); */
 }
 
 const FeaturesGalleryWrapper = styled(Container)`

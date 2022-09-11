@@ -10,11 +10,11 @@ export default function PricingTablesSection() {
       <SectionTitle>Flexible pricing</SectionTitle>
       <AutofitGrid>
         <PricingCard
-          title="free"
-          description="Give us a try for free"
-          benefits={['1 seat', '1 active project', '25 emails per month', 'Metrics']}
+          title="Leads only"
+          description="Targeted prospect list with verified emails"
+          benefits={['Warmed up domain', '1 active project', '1000 emails per month', 'Metrics']}
         >
-          $0<span>/month</span>
+          $400<span>/month</span>
         </PricingCard>
         <PricingCard
           title="Starter"
