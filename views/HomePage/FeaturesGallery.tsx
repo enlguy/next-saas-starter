@@ -1,4 +1,4 @@
-import NextImage from 'next/image';
+{ /* import NextImage from 'next/image';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Collapse from 'components/Collapse';
@@ -73,7 +73,7 @@ export default function FeaturesGallery() {
     setCurrentTab(TABS[idx]);
   }
 
-  /* return (
+   return (
     <FeaturesGalleryWrapper>
       <Content>
         <OverTitle>features</OverTitle>
@@ -84,7 +84,7 @@ export default function FeaturesGallery() {
         {imagesMarkup}
       </GalleryWrapper>
     </FeaturesGalleryWrapper>
-  ); */
+  ); 
 }
 
 const FeaturesGalleryWrapper = styled(Container)`
@@ -205,3 +205,4 @@ const CircleContainer = styled.div`
     flex: 0 calc(4rem + 1.25rem);
   }
 `;
+*/ }
